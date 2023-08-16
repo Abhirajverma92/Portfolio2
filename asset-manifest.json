@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/portfoliio/static/css/main.0c9485a9.css",
+    "main.js": "/portfoliio/static/js/main.35d10481.js",
+    "static/media/glyphicons-halflings-regular.svg": "/portfoliio/static/media/glyphicons-halflings-regular.060b2710bdbbe3dfe48b.svg",
+    "static/media/abhiraj background img.jpeg": "/portfoliio/static/media/abhiraj background img.ebb6e8dbcfd6741eb095.jpeg",
+    "static/media/glyphicons-halflings-regular.ttf": "/portfoliio/static/media/glyphicons-halflings-regular.4692b9ec53fd5972caa2.ttf",
+    "static/media/glyphicons-halflings-regular.woff": "/portfoliio/static/media/glyphicons-halflings-regular.82b1212e45a2bc35dd73.woff",
+    "static/media/glyphicons-halflings-regular.eot": "/portfoliio/static/media/glyphicons-halflings-regular.5be1347c682810f199c7.eot",
+    "static/media/Resume.pdf": "/portfoliio/static/media/Resume.d9afce488e715dde7448.pdf",
+    "static/media/glyphicons-halflings-regular.woff2": "/portfoliio/static/media/glyphicons-halflings-regular.be810be3a3e14c682a25.woff2",
+    "index.html": "/portfoliio/index.html",
+    "main.0c9485a9.css.map": "/portfoliio/static/css/main.0c9485a9.css.map",
+    "main.35d10481.js.map": "/portfoliio/static/js/main.35d10481.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c9485a9.css",
+    "static/js/main.35d10481.js"
+  ]
+}
