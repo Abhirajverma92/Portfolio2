@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono&family=Ubuntu&display=swap');
+
+
+*{
+    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Ubuntu', sans-serif;
+}
+body {
+    overflow-x: hidden;
+    
+}
+

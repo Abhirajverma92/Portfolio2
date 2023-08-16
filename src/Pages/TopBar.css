@@ -1,0 +1,53 @@
+.TopBar {
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #2b2c30;
+  height: 80px;
+  width: 99vw;
+}
+.navigation {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 111px;
+}
+.navigation > li {
+  font-size: 12px;
+  font-weight: 700;
+  padding: 10px 0px 0px 10px;
+  margin-right: 5rem;
+}
+ul li a {
+  color: #6f7073 !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  letter-spacing: 2.5px;
+}
+ul li a:hover {
+  color: #fac921 !important;
+}
+.GetInTouch > i {
+  text-decoration: none;
+  font-size: 22px;
+  color: whitesmoke;
+}
+.GetInTouch {
+  background-color: #fac921;
+  width: 80px;
+  height: 80px !important;
+  display: grid;
+  place-items: center;
+}
+.fa-minus {
+  font-size: 18px !important;
+  margin-right: 1rem;
+  font-weight: 600 !important;
+}

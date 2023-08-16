@@ -1,0 +1,147 @@
+.Contact {
+  height: calc(100vh - 80px);
+  padding-left: 80px !important;
+  padding-top: 20px;
+  background-color: #2a2a2e;
+}
+
+.Contact .title {
+  color: white;
+  font-size: 32px;
+  font-weight: 600;
+}
+.Contact-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.Contact-form{
+padding-top: 50px;
+}
+
+.inputs {
+  display: flex;
+}
+input {
+  padding: 8.5px 12.5px;
+  border-radius: 8px;
+  border: 1.25px solid #fac921;
+  background-color: #414145;
+  color: white;
+  width: 48.25%;
+}
+input[type="email"] {
+  margin: 1.35rem 0;
+  width: 100%;
+}
+::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #c0c0c0;
+  opacity: 1; /* Firefox */
+}
+:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: #c0c0c0;
+}
+::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: #c0c0c0;
+}
+textarea {
+  border-radius: 7px;
+  padding: 12px;
+  border: 1.25px solid #fac921;
+  background-color: #414145;
+  color: white;
+  resize: none !important;
+  width: 100%;
+}
+
+.Cmain {
+  z-index: 2;
+  margin-left: 80px;
+  margin-top: 30px;
+}
+
+.Cheading {
+  font-size: 24px;
+  font-weight: 900 !important;
+  font-family: sans-serif;
+  color: whitesmoke;
+}
+
+.Cdetail {
+  width: 25%;
+  font-size: 13px;
+  margin-top: 20px;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.what-i-do {
+  color: whitesmoke;
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.download-btn {
+  background-color: #fac921;
+  padding: 15px 30px;
+  outline: none;
+  border: none;
+  font-size: 10px;
+  border-radius: 7px;
+  box-shadow: -1px 4px 10px -6px rgba(0, 0, 0, 0.7);
+  color: whitesmoke;
+  font-weight: 700;
+  letter-spacing: 2px;
+  width: 150px;
+  transition: 1s;
+  margin-top: 30px;
+}
+
+.download-btn:hover {
+  width: 180px;
+  letter-spacing: 2px;
+}
+
+.Info {
+  color: whitesmoke;
+  margin-top: 6rem;
+  margin-left: 7rem;
+
+}
+
+.fa-map-marker-alt {
+  font-size: 35px;
+  color: #fac921;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.fa-phone-alt {
+  font-size: 35px;
+  color: #fac921;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.fa-inbox {
+  font-size: 35px;
+  color: #fac921;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.fact {
+  background-color: #414145;
+  padding: 10px 0 5px 10px;
+  border-radius: 10px;
+  box-shadow: -1px 4px 20px -6px rgb(0 0 0 / 70%);
+  margin-top: 15px;
+  text-align: center;
+  width: 80%;
+  height: 55%;
+}
+
+
