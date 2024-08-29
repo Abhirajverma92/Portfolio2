@@ -16,7 +16,7 @@ function About() {
         </h3>
         <h3 className="Aboutheading">
           And Highly Innovative{" "}
-          <span className="highlight">Web Developer.</span>
+          <span className="highlight">Full Stack Developer.</span>
         </h3>
         <hr className="Aboutline"></hr>
         <p className="Detail">
