@@ -1,152 +1,48 @@
 .Skills {
-  height: calc(110vh - 80px);
-  /* height: 100vh; */
-  padding-left: 80px !important;
-  padding-top: 20px;
-  background-color: whitesmoke;
-  
+  padding: 20px;
+  margin-bottom: 50px; /* Ensure there is enough space below this component */
 }
 
-.details--customize {
-  display: none !important;
+.backslash1 {
+  font-size: 32px;
+  font-weight: bold;
 }
 
-.customize {
-margin-left: 20px;
+.Smain, .Secondmain {
+  margin-bottom: 40px;
 }
 
-.donutchart {
-  display: flex;
-  margin-left: 38rem;
-  margin-top: 10px;
-  position: relative;
-  top: -230px;
-  z-index: 4;
-}
-
-.spacing{
-  margin-left: 60px;
-}
-
-.Smain {
-  z-index: 2;
-  position: relative;
-  top: -95px;
-  left: 100px;margin-top: 100px;
-}
-
-.Sdetail {
-  width: 25%;
-  font-size: 13px;
-  margin-top: 20px;
-  font-weight: 600;
-}
-
-
-.Sheading {
+.skills-heading {
   font-size: 24px;
-  font-weight: 900 !important;
-  font-family: sans-serif;
-}
-
-.hskills{
-  color: #fac921;
-  font-size: 24px;
-  font-weight: 900 !important;
-  font-family: sans-serif;
-}
-
-.Secondheading{
-  font-size: 24px;
-  font-weight: 900 !important;
-  font-family: sans-serif;
-}
-
-.Secondmain{
-  z-index: 2;
-  position: relative;
-  top: -130px;
-  left: 280px;
-  margin-top: 70px;
-}
-
-.progress{
-  width: 40% !important;
-  margin-top: 15px;
-  color: #fac921;
-  position: relative;
-  top: -18rem;
-  left: 50rem;
-}
-
-.Planguage{
-  position: relative;
-  left: 50rem;
-  top: -17rem;
-  font-size: 14px;
-  font-weight: 600;
-}
-
-.percent1{
-margin-left: 34.5rem;
-}
-
-.percent2{
-margin-left: 33.5rem;
-}
-
-.percent3{
-margin-left: 32rem;
-}
-
-.percent4{
-margin-left: 33rem;
-}
-
-.percent5{
-margin-left: 33.25rem;
-}
-
-.donutchart1 {
-  display: flex;
-  margin-left: 33rem;
-  margin-top: 10px;
-  position: relative;
-  top: -280px;
-  z-index: 4;
-}
-
-.line1 {
-  position: absolute;
-  top: 0;
-  left: -20px;
-  bottom: 0;
-  margin-right: 20px;
-  border-left: 3.5px solid #fac921;
-}
-
-.tags{
-text-align: center;
-margin-top: 10px;
-margin-left: auto;
-margin-right: auto;
-font-weight: 600;
-letter-spacing: 1.5px;
-}
-
-.Smain1{
-   z-index: 2;
-  position: relative;
-  top: -140px;
-  left: 100px;
-  margin-top: 70px;
-}
-.backslash1{
+  font-weight: bold;
   margin-top: 40px;
-  font-size: 160px;
-  font-weight: 900;
-  color: rgba(192, 192, 192, 0.20);
-  font-family: "Bungee", cursive;
-  margin-left: 50px;
-  z-index: 1;
+  text-align: center;
+  color: #333;
+}
+
+.Bargraph {
+  margin-top: 20px;
+}
+
+.Planguage {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.progress {
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+.percent1,
+.percent2,
+.percent3,
+.percent4,
+.percent5,
+.percent6,
+.percent7 {
+  margin-right: 10px;
 }

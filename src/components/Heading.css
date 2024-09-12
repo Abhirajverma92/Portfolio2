@@ -49,7 +49,7 @@
 .main {
   height: calc(100vh);
   background-color: #2a2a2e;
-  background-image: url(C:\Users\abhir\OneDrive\Desktop\react js app\Portfolio-master\src\abhiraj background img.jpeg); 
+  background-image: url(../abhiraj\ background\ img.jpeg); 
   background-repeat: no-repeat;
   background-size: auto;
   background-size: 1600px 900px;

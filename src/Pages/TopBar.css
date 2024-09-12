@@ -10,20 +10,23 @@
   height: 80px;
   width: 99vw;
 }
-.navigation {
+
+.TopBar .navigation {
   display: flex;
   list-style-type: none;
   justify-content: space-between;
   align-items: center;
   padding-left: 111px;
 }
-.navigation > li {
+
+.TopBar .navigation > li {
   font-size: 12px;
   font-weight: 700;
   padding: 10px 0px 0px 10px;
   margin-right: 5rem;
 }
-ul li a {
+
+.TopBar ul li a {
   color: #6f7073 !important;
   text-decoration: none !important;
   text-transform: uppercase;
@@ -31,22 +34,26 @@ ul li a {
   align-items: center;
   letter-spacing: 2.5px;
 }
-ul li a:hover {
+
+.TopBar ul li a:hover {
   color: #fac921 !important;
 }
-.GetInTouch > i {
+
+.TopBar .GetInTouch > i {
   text-decoration: none;
   font-size: 22px;
   color: whitesmoke;
 }
-.GetInTouch {
+
+.TopBar .GetInTouch {
   background-color: #fac921;
   width: 80px;
   height: 80px !important;
   display: grid;
   place-items: center;
 }
-.fa-minus {
+
+.TopBar .fa-minus {
   font-size: 18px !important;
   margin-right: 1rem;
   font-weight: 600 !important;

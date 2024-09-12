@@ -31,6 +31,12 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             </a>
           </li>
           <li>
+            <a href="#FACTS">
+              {" "}
+              <i class="fas fa-minus"></i> FACTS{" "}
+            </a>
+          </li>
+          <li>
             <a href="#RESUME">
               {" "}
               <i class="fas fa-minus"></i> Resume{" "}
@@ -42,12 +48,7 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
               <i class="fas fa-minus"></i> Skills + Experience{" "}
             </a>
           </li>
-          <li>
-            <a href="#CONTACT">
-              {" "}
-              <i class="fas fa-minus"></i> Contact{" "}
-            </a>
-          </li>
+          
         </ul>
         <div className="contact">
           <a className="GetInTouch" href="#CONTACT">

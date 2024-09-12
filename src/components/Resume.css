@@ -1,11 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Bungee&family=Rubik+Mono+One&display=swap");
 
 .Resume {
-  height: calc(130vh - 80px);
+  scroll-margin-top: 120px; 
+  padding-top: 200px; /* Adjust this value as needed */
   padding-left: 80px !important;
-  padding-top: 20px;
   background-color: whitesmoke;
+  height: calc(130vh - 80px);
 }
+
+
+
+
+/* Add other styles as needed */
+
 
 .backslash {
   font-size: 160px;

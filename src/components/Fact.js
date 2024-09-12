@@ -3,7 +3,7 @@ import "./Fact.css";
 
 function Fact() {
   return (
-    <div className="Fact">
+    <div className="Fact" id="FACTS">
       <h1 className="Verticaltext">NUMBERS</h1>
       <p className="Factheading">
         SOME INTRESTING <span className="Facthighlight">FACTS</span>
@@ -15,7 +15,7 @@ function Fact() {
       </p>
       <div className="stats">
         <div className="statdiv">
-          <p className="Numbers">2</p>
+          <p className="Numbers">4</p>
           <div className="statsdetail">Finished Projects</div>
         </div>
         <div className="statdiv">
