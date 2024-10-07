@@ -1,5 +1,38 @@
-.hero{
-    height: 100%;
-    width: 100%;
+/* Hero.css */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center align children */
+  padding: 20px;
+  margin: 0 auto;
+  max-width: 1200px; /* Limit the maximum width */
 }
+
+/* Adjust styles for each component */
+h1, h2, h3, p {
+  margin: 10px 0; /* Add some margin */
+  text-align: center; /* Center align text */
+}
+
+/* Responsive media queries */
+@media (min-width: 768px) {
+  .hero {
+    flex-direction: row; /* Change to row layout on larger screens */
+    justify-content: space-between; /* Space out children */
+  }
+
+  .hero > * {
+    flex: 1; /* Each child will take equal space */
+    margin: 10px; /* Add margin around each child */
+  }
+}
+
+@media (max-width: 767px) {
+  .hero > * {
+    width: 100%; /* Full width on small screens */
+  }
+}
+
+/* Add any additional styles needed for specific components */
+
 
